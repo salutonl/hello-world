@@ -21,9 +21,9 @@ pipeline {
 
           }
         }
-        stage('') {
+        stage('error') {
           steps {
-            sh 'python test.py'
+            sh 'python .test.py'
           }
         }
       }
